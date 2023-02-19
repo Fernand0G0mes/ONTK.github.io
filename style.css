@@ -41,7 +41,7 @@ header {
 
 
   nav ul li a {
-    color: #ffaa00;
+    color: red;
     text-decoration: none;
     display: flex;
     margin: 20px; 
@@ -52,21 +52,25 @@ header {
     background-color: red; 
   }
   
-
   nav figure {
-    color: #ffaa00;
+    color: red;
     cursor: pointer;
     font-size: 20px;
     font-weight: 800;
   }
 
+<<<<<<< HEAD
   /*.....::::: VIADO HOME .....::::: */
+=======
+ /*.....::::: SECTION HOME .....::::: */
+>>>>>>> e50a2ded1916f833d8a5978badfe6e96c4d24e84
 
   section {
     background-color: #4400ff;
     height: 900px;
     width: auto;
   }
+<<<<<<< HEAD
 
 
 nav input {
@@ -81,3 +85,5 @@ font-size: 20px;
 font-weight: 800;
 }
 
+=======
+>>>>>>> e50a2ded1916f833d8a5978badfe6e96c4d24e84
