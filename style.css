@@ -53,7 +53,7 @@ nav ul li a {
 
 nav input {
   
-<<<<<<< HEAD
+
   margin-right: 10px;
   background-color: #ffaa00;
   border-radius: 300px;
@@ -103,18 +103,18 @@ nav figure {
 /*.....::::: SECTION HOME .....::::: */
 
 section {
-  background-color: #4400ff;
+  background-color: #ffaa00;
   height: 900px;
   width: auto;
 }
 
   nav input {
     margin-right: 10px;
-    background-color: red; 
+    background-color: #ffaa00; 
   }
   
   nav figure {
-    color: red;
+    color: #ffaa00;
     cursor: pointer;
     font-size: 20px;
     font-weight: 800;
@@ -127,4 +127,4 @@ section {
     height: 900px;
     width: auto;
   }
->>>>>>> d3d398d955da3ef203008498bb6818b2b0e080c8
+
