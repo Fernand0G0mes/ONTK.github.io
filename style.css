@@ -54,13 +54,13 @@ header {
   
 
   nav figure {
-    color: #ffaa00;
+    color: green;
     cursor: pointer;
     font-size: 20px;
     font-weight: 800;
   }
 
-  /*.....::::: OTAVIO HOME .....::::: */
+  /*.....::::: SECTION HOME .....::::: */
 
   section {
     background-color: #000000;
