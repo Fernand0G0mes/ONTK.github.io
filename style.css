@@ -49,7 +49,7 @@ header {
   
   nav input {
     margin-right: 10px;
-    background-color: red; 
+    background-color: aquamarine; 
   }
   
 
@@ -63,7 +63,7 @@ header {
   /*.....::::: VIADO HOME .....::::: */
 
   section {
-    background-color: #000000;
+    background-color: #4400ff;
     height: 900px;
     width: auto;
   }
