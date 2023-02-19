@@ -43,7 +43,7 @@ header {
 
 
   nav ul li a {
-    color: #ffaa00;
+    color: red;
     text-decoration: none;
     display: flex;
     margin: 20px; 
