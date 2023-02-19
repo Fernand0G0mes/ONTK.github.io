@@ -41,7 +41,7 @@ header {
 
 
   nav ul li a {
-    color: #ffaa00;
+    color: red;
     text-decoration: none;
     display: flex;
     margin: 20px; 
@@ -52,15 +52,14 @@ header {
     background-color: red; 
   }
   
-
   nav figure {
-    color: #ffaa00;
+    color: red;
     cursor: pointer;
     font-size: 20px;
     font-weight: 800;
   }
 
-  /*.....:::::: PICA HOME .....:::::: */
+ /*.....::::: SECTION HOME .....::::: */
 
   section {
     background-color: #4400ff;
