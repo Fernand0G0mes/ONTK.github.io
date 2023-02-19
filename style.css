@@ -5,7 +5,6 @@ font-family: 'Roboto', sans-serif;
 scroll-behavior: smooth;
 }
 
-
 header {
     display: flex;
     height: 100px;
@@ -41,7 +40,7 @@ header {
 
 
   nav ul li a {
-    color: #ffaa00;
+    color: red;
     text-decoration: none;
     display: flex;
     margin: 20px; 
@@ -52,15 +51,14 @@ header {
     background-color: red; 
   }
   
-
   nav figure {
-    color: #ffaa00;
+    color: red;
     cursor: pointer;
     font-size: 20px;
     font-weight: 800;
   }
 
-  /*.....:::::: SECTION HOME .....:::::: */
+ /*.....::::: SECTION HOME .....::::: */
 
   section {
     background-color: #4400ff;
