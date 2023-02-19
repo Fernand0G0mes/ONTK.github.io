@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -19,42 +19,87 @@ nav {
   align-items: center;
 }
 
+
 nav img {
   width: 50%;
   height: 50%;
 }
+
 
 nav ul {
   display: flex;
   list-style: none;
 }
 
+
 nav ul li {
   display: flex;
   margin: 40px;
 }
 
+#user-espaco {
+  padding-right: 60px;
+  border-right: 4px solid #ffaa00
+
+}
+
 nav ul li a {
-  color: red;
+  color: #ffaa00;
   text-decoration: none;
   display: flex;
   margin: 20px;
 }
 
 nav input {
+  
+
   margin-right: 10px;
-  background-color: rgb(255, 255, 255);
+  background-color: #ffaa00;
+  border-radius: 300px;
+  height: 25px;
+  
+}
+
+nav ::placeholder {
+
+  color: #131313;
+  padding: 70px;
+
+}
+
+#input-user {
+
+  background-image: url(/ICON/user-90.png);
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  padding-left: 40px; /* para dar espaço ao ícone */
+
+}
+
+#input-pw {
+
+  background-image: url(/ICON/forgot-password-96.png);
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  padding-left: 40px; /* para dar espaço ao ícone */
+
 }
 
 
 nav figure {
-  color: red;
+  color: #ffaa00;
   cursor: pointer;
   font-size: 20px;
-  font-weight: 800;
+  font-weight: 1px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: #ffaa00 solid;
+  border-radius: 15px;
+  border-width: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
-/*.....::::: SECTION HOME .....::::: */
+/.....::::: SECTION HOME .....:::::/
 
 .home {
   background-image: url(IMG/foto1.jpg);
@@ -64,7 +109,7 @@ nav figure {
   width: auto;
 }
 
-/*.....::::: SECTION SOBRE .....::::: */
+/.....::::: SECTION SOBRE .....:::::/
 
 
 .sobre {
@@ -97,11 +142,11 @@ h1 {
 }
 
 
-/*.....::::: SECTION SOBRE .....::::: */
+/.....::::: SECTION SOBRE .....:::::/
 
 
 #users {
-  background: linear-gradient(29deg, rgba(112,75,0,1) 7%, rgba(255,170,0,1) 7%, rgba(255,170,0,1) 90%, rgba(112,75,0,1) 90%);
+  background: linear-gradient(29deg, #704b00 7%, rgba(255,170,0,1) 7%, rgba(255,170,0,1) 90%, rgba(112,75,0,1) 90%);
   height: 850px;
   width: auto;
   display: flex;
@@ -119,7 +164,7 @@ h1 {
 }
 
 .bloco {
-  
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -134,7 +179,7 @@ h1 {
 
 
 
-/*.....::::: FOOTER .....::::: */
+/.....::::: FOOTER .....:::::/
 
 .footertext {
   display: flex;
@@ -144,12 +189,10 @@ h1 {
     align-items: center;
     justify-content: center;
  
-   
+
   }
 
   .footertext h1 {
     font-weight: 100;
     font-size: 20px;
   }
-
-
