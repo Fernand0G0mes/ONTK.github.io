@@ -31,14 +31,12 @@ header {
   nav ul {
     display: flex;
     list-style: none;
-    
   }
   
 
   nav ul li {
     display: flex;
     margin: 40px; 
-    
   }
 
 
@@ -47,13 +45,11 @@ header {
     text-decoration: none;
     display: flex;
     margin: 20px; 
-
-    
   }
   
-
   nav input {
-    margin-right: 10px; 
+    margin-right: 10px;
+    background-color: aquamarine; 
   }
   
 
